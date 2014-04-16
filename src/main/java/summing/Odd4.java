@@ -9,6 +9,15 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
+/**
+ * Question:
+ * http://stackoverflow.com/questions/23079296/java-program-to-add-up-even-number-to-1/23079698#23079698
+ * 
+ * I wouldn't usually code this class like this and have a JFrame that is also an ActionListener, but the OP
+ * had asked if I could put the block to derive the sequence into the full example.
+ * 
+ * @author danielt
+ */
 public class Odd4 extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;

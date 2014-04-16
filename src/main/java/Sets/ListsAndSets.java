@@ -5,6 +5,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Question:
+ * http://stackoverflow.com/questions/23078182/contents-of-multiple-lists-put-in-a-set/23078257#23078257
+ * 
+ * OP asked if Lists could be combined into a Set such that the duplicates would be removed.
+ * 
+ * @author danielt
+ */
 public class ListsAndSets {
 
 	public static void main(final String[] args) {
