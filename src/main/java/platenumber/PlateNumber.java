@@ -32,6 +32,9 @@ public class PlateNumber {
 				System.out.println("Plate Numbers after removal: " + plateNumber.toString());
 				break; //Only allows you to remove one plate number before the application stops.
 			}
+
+			pn.close();
+			YoN.close();
 		}
 	}
 }

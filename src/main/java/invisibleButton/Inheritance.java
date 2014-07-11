@@ -36,14 +36,8 @@ public class Inheritance {
 		list.add(new B());
 		list.add(new C());
 		list.add(new D());
-		
-		//My point about having to cast
-		final A obj = list.get(1);
-		final B obj2 = (B) list.get(1);
-		//This line would have caused a compilation failure
-		//final B obj3 = list.get(0);
-		
-		for (A a : list) {
+
+		for (final A a : list) {
 			System.out.println(a);
 		}
 	}

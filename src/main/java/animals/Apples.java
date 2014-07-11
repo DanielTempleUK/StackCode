@@ -38,5 +38,7 @@ public class Apples {
 			System.out.println(count + " grades inputted.");
 			System.out.print("Average of the grades: "+ average);
 		}
+
+		reader.close();
 	}
 }
